@@ -1,0 +1,62 @@
+:root {
+  // ### Primary
+
+  --clr-blue: hsl(220, 98%, 61%);
+  --clr-check-gradient: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
+  // ### Dark Theme
+
+  --clr-gray-100: hsl(236, 33%, 92%);
+  --clr-gray-200: hsl(234, 39%, 85%);
+  --clr-gray-300: hsl(234, 11%, 52%);
+  --clr-gray-400: hsl(233, 14%, 35%);
+  --clr-gray-500: hsl(237, 14%, 26%);
+  --clr-gray-600: hsl(235, 21%, 11%);
+  --clr-gray-700: hsl(235, 24%, 19%);
+
+  --bg-clr-gray-100: hsl(236, 33%, 92%);
+  --bg-clr-gray-200: hsl(234, 39%, 85%);
+  --bg-clr-gray-300: hsl(234, 11%, 52%);
+  --bg-clr-gray-400: hsl(233, 14%, 35%);
+  --bg-clr-gray-500: hsl(237, 14%, 26%);
+  --bg-clr-gray-600: hsl(235, 21%, 11%);
+  --bg-clr-gray-700: hsl(235, 24%, 19%);
+}
+
+body.light-theme {
+  // ### light Theme
+
+  --clr-gray-100: hsl(0, 0%, 98%);
+  --clr-gray-200: hsl(236, 33%, 92%);
+  --clr-gray-300: hsl(233, 11%, 84%);
+  --clr-gray-400: hsl(236, 9%, 61%);
+  --clr-gray-500: hsl(235, 19%, 35%);
+
+  --bg-clr-gray-100: hsl(0, 0%, 98%);
+  --bg-clr-gray-200: hsl(236, 33%, 92%);
+  --bg-clr-gray-300: hsl(233, 11%, 84%);
+  --bg-clr-gray-400: hsl(236, 9%, 61%);
+  --bg-clr-gray-500: hsl(235, 19%, 35%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+button,
+.button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  html {
+    font-size: 93.75%;
+  }
+}

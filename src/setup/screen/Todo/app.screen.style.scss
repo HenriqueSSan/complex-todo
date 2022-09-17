@@ -1,0 +1,22 @@
+.todo {
+  margin-top: -180px;
+
+  &-container {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
+
+.todo-items ul {
+  max-height: 400px;
+}
+
+.todo-items ul::-webkit-scrollbar {
+  width: 10px;
+  background: var(--clr-gray-700);
+}
+
+.todo-items ul::-webkit-scrollbar-thumb {
+  background: var(--clr-check-gradient);
+}

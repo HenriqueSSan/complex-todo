@@ -1,0 +1,23 @@
+.todo-input {
+  width: 100%;
+  border-radius: 10px;
+  height: 64px;
+}
+
+.check {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.is-check {
+  @extend .check;
+  background: var(--clr-check-gradient);
+}
+
+.todo-item {
+  &:first-child {
+    border-radius: 10px 10px 0 0;
+  }
+  border-bottom: 1px solid var(--clr-gray-400);
+}

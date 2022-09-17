@@ -1,0 +1,51 @@
+.box-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-start {
+  @extend .box-between;
+  justify-content: flex-start;
+}
+
+.box-center {
+  @extend .box-between;
+  justify-content: center;
+}
+
+.space-1 {
+  gap: 0.75rem;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
+
+.is-visible {
+  visibility: visible;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.background-primary {
+  background-color: var(--clr-gray-700);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-active {
+  color: blue;
+}
+
+.input-padding-1 {
+  padding: 1rem 0.5rem;
+}
+
+.padding-button-1 {
+  padding: 0.75rem 1rem;
+}
